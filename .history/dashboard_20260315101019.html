@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+<div class="sidebar">
+
+<h2>FlowSpace</h2>
+
+<ul>
+
+<li>Dashboard</li>
+<li>Projects</li>
+<li>Tasks</li>
+<li>Settings</li>
+
+</ul>
+
+</div>
+
+<div class="main">
+
+<h1>Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h3>Tasks</h3>
+<p>18 Pending</p>
+</div>
+
+<div class="card">
+<h3>Projects</h3>
+<p>6 Active</p>
+</div>
+
+<div class="card">
+<h3>Messages</h3>
+<p>12 New</p>
+</div>
+
+</div>
+
+<h2>Task Board</h2>
+
+<div class="task-board">
+
+<div class="column">
+
+<h3>To Do</h3>
+
+<div class="task" draggable="true">Design Homepage</div>
+<div class="task" draggable="true">Create Dashboard UI</div>
+
+</div>
+
+<div class="column">
+
+<h3>In Progress</h3>
+
+<div class="task" draggable="true">Build Charts</div>
+
+</div>
+
+<div class="column">
+
+<h3>Completed</h3>
+
+<div class="task" draggable="true">Project Setup</div>
+
+</div>
+
+</div>
+
+<canvas id="chart"></canvas>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
